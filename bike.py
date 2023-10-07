@@ -12,10 +12,10 @@ if hight>=3:
     else:
         bill=450
         print("ticket price is 450")
-    photo=(input("you want to take pic (y/n)? ") ) 
+    photo=(input("you want to take pic : (y/n)? ") ) 
     if photo == 'y' or photo == 'n':
         bill=bill+50
-    print(f"your total price is {bill}")
+    print(f"your total price is : {bill}")
 
 
 
